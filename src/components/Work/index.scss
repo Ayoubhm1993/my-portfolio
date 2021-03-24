@@ -1,13 +1,17 @@
 .work-section{
     height:100%;
     width: 100%;
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 
 
-    h3{
+    .work-title{
         position: relative;
-        display: block;
+        display: flex;
         justify-content: center;
-        left:50%;
+        
         font-size: 3rem;
         
     }

@@ -11,7 +11,7 @@ const About = () => {
             <h1 id="#about">Who Am I ?</h1>
             <div className="about-container">
             
-            <img src={myPic} className="image"  alt="cover" />
+            <img src={myPic} className="image-me"  alt="cover" />
             
             <div className='text'>
             <p >

@@ -71,7 +71,7 @@ const toggleModal = (image, i) => {
 
     return(
         <section className="work-section" id="work">
-          <h3> Work </h3>
+          <h3 className="work-title"> Work </h3>
           {isModalOpen && <Modal  onClick={toggleModal} project={project} photos={photos} />}
           {projects.map((project,i)=>(
          <div className='card-container'> 

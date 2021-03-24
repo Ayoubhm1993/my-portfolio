@@ -22,10 +22,10 @@ const Nav = (props) => {
                             Work
                         </a>
                     </li>
-                    <li className={`mx-2 ${props.contactSelected && 'navActive'}`}  onClick={() => props.setContactSelected(true)}>
+                    <li className={`mx-2  ${props.contactSelected && 'navActive'}`} className='resume'  onClick={() => props.setContactSelected(true)}>
                             Contact
                     </li>
-                    <li className="mx-2"onClick={() => props.setContactSelected(false)}>
+                    <li className="mx-2" className='resume' onClick={() => props.setContactSelected(false)}>
                             Resume
                     </li>
                 </ul>

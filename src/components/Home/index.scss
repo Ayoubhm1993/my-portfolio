@@ -1,25 +1,35 @@
 .home{
-    height: 100vh;
-    position: relative;
-    display:inline-block;
-    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     overflow: hidden;
     
-    image{
+    width: 100%;
+    
+    
+    .image-cover{
   z-index: 0;
+  position: relative;
+  height: 100%;
+  width: 100%;
+
   overflow: hidden;
+  
+  
+
     }
-    p{
-        position: absolute;
+    .text-full{
+        position: relative;
         text-align: center;
-        bottom:50%;
-        right:6vh;
+
+        bottom: 80%;
+        
         left: 3%;
         overflow: visible;
         z-index: 1;
         font-size: 15vh;
-        padding-left: auto;
-        padding-bottom: 10px;
+        
 
         
     }
