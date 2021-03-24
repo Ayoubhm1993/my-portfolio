@@ -7,7 +7,7 @@ const Nav = (props) => {
         <header >
             <h2>
                 <a data-testid="link" href="/">
-                    <span>Ayoub Hammouch</span>
+                    <span >Ayoub Hammouch</span>
                 </a>
             </h2>
             <nav>
