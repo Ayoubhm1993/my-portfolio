@@ -1,0 +1,29 @@
+.home{
+    height: 100vh;
+    position: relative;
+    display:inline-block;
+    width: 100%;
+    overflow: hidden;
+    
+    image{
+  z-index: 0;
+  overflow: hidden;
+    }
+    p{
+        position: absolute;
+        text-align: center;
+        bottom:50%;
+        right:6vh;
+        left: 3%;
+        overflow: visible;
+        z-index: 1;
+        font-size: 15vh;
+        padding-left: auto;
+        padding-bottom: 10px;
+
+        
+    }
+    
+    
+    
+}

@@ -1,0 +1,38 @@
+.footer-container{
+    width: 100vh;
+    display: flex;
+    justify-content:center;
+    margin:20px 0px;
+    align-items: center;
+    .linkedin{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        right:40%;
+        img{
+            width: 60px;
+        height: 60px;
+        }
+
+    }
+    .github{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        right: 25%;
+        img{
+            width: 60px;
+        height: 60px;
+        }
+    }
+    .mail{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        right: 10%;
+        img{
+            width: 60px;
+        height: 60px;
+        }
+    }
+}
