@@ -33,7 +33,7 @@ const projects=[
     id:'4',
     title: 'Diet Delivery',
     description:"Run Buddy! Application that's Offers fitness training Services" ,
-    github:'https://github.com/Ayoubhm1993/Run-Buddy',
+    github:'https://github.com/Ayoubhm1993/diet-delivery',
     link:"https://diet-delivery.herokuapp.com/"
   },
   {

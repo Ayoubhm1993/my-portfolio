@@ -28,7 +28,7 @@
 
   # Usage :
 
-   ![Untitled-4 copy](https://user-images.githubusercontent.com/70945176/112250455-66b9d500-8c27-11eb-849b-3457c245ed0a.JPG)
+   ![Screen-shot](https://user-images.githubusercontent.com/70945176/112250455-66b9d500-8c27-11eb-849b-3457c245ed0a.JPG)
 
 
 
