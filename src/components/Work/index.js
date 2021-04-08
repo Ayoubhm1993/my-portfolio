@@ -39,7 +39,7 @@ const [project]=useState([ {
     id:'4',
     title: 'Diet Delivery',
     description:"Diet Delivery! Application for a meal delivery service that specializes in diets for chronic diseases, such as renal disease and diabetes." ,
-    github:'https://github.com/Ayoubhm1993/meal-delivery',
+    github:'https://github.com/Ayoubhm1993/diet-delivery',
     link:"https://diet-delivery.herokuapp.com/"
   },
   {
