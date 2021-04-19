@@ -11,28 +11,28 @@ const projects=[
   {
   id: '1',
   title:'Oh Snap',
-  description:"Oh Snap ! Application that's handle portfolio Projects and works ,with option to see seprate gallery images .",
+  description:"React",
   github:'https://github.com/Ayoubhm1993/photo-port',
   link: "https://ayoubhm1993.github.io/photo-port/"
   },
   {
     id:'2',
     title: 'ZooKeepr',
-    description:"Zookeepr! Application that's handle Animal Catalog, with option to select Animal base on Diet and Catalog & add and modifie and delete Each animal ." ,
+    description:"Express.js" ,
     github:'https://github.com/Ayoubhm1993/Zookeepr',
     link:""
   },
   {
     id:'3',
-    title: 'Run-Buddy',
-    description:"Run Buddy! Application that's Offers fitness training Services" ,
-    github:'https://github.com/Ayoubhm1993/Run-Buddy',
-    link:"https://ayoubhm1993.github.io/Run-Buddy"
+    title: 'Collectors haven',
+    description:"MERN Stack Application" ,
+    github:'https://github.com/Ayoubhm1993/collectors-haven',
+    link:"https://aqueous-taiga-86315.herokuapp.com/"
   },
   {
     id:'4',
     title: 'Diet Delivery',
-    description:"Run Buddy! Application that's Offers fitness training Services" ,
+    description:"Html & Css" ,
     github:'https://github.com/Ayoubhm1993/diet-delivery',
     link:"https://diet-delivery.herokuapp.com/"
   },
@@ -49,6 +49,13 @@ const projects=[
     description:"Password Generator! Application that's genearat password with 8 minimum and 128 maximum length , Include char/Uppercase and LowerCase ." ,
     github:'https://github.com/Ayoubhm1993/Password-Generator',
     link:"https://ayoubhm1993.github.io/Password-Generator/"
+  },
+  {
+    id:'7',
+    title: 'Run-Buddy',
+    description:"Run Buddy! Application that's Offers fitness training Services" ,
+    github:'https://github.com/Ayoubhm1993/Run-Buddy',
+    link:"https://ayoubhm1993.github.io/Run-Buddy"
   }
 ];
   return (

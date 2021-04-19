@@ -2,7 +2,7 @@ import React from "react";
 import myPic from "../../assets/me/me.JPG";
 import "./index.scss"
 import icon1 from "../../assets/icons/1.PNG";
-import icon2 from "../../assets/icons/2.PNG";
+
 
 
 const About = () => {
@@ -23,10 +23,10 @@ const About = () => {
   
     
       <div className="skills">
-          <h5>skills</h5>
+          <h3>Skills</h3>
        <div className='skills-icons'>
            <img src={icon1} alt='icons'></img>
-           <img src={icon2} alt="icons"></img>
+           
        </div>
       </div>
  

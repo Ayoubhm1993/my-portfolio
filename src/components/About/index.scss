@@ -4,6 +4,7 @@
     display:block;
     justify-content: center;
     flex-wrap: wrap;
+    background-color:cornflowerblue;
     h1{
         display: flexbox;
         justify-content: center;
@@ -11,9 +12,9 @@
 
         text-align: center;
         width: 100%;
-        
-        font-size: 50px;
-        background-color: beige;
+        color: blanchedalmond;
+        font-size: 2rem;
+        background-color:black;
        
         
     }
@@ -26,12 +27,12 @@
         
     .image-me{
        position: relative;
-        width: 40vh;
-        height: 40vh;
-        border-radius: 10%;  
+        width: 30vh;
+        height: 30vh;
+        border-radius: 100%;  
         top:10%;
         justify-content: center;
-        margin-left: 80px;
+        
     
         
     }
@@ -48,28 +49,25 @@
     }
     .skills{
         height: 100%;
-        margin: 20px 0px;
-        h2{
-        position: absolute;
-        text-align: center;
-        width: 97%;
-        
-        font-size: 50px;
-        background-color: beige;
+        display: flex;
         justify-content: center;
-        display: block;
+        flex-wrap: wrap;
+        
+        
+        h3{
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
         }
-        .skills-icons{
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
+        
             img{
-                height: 50%;
-                width: 50%;
+                height: 100%;
+                width: 100%;
                 position: relative;
                 
             }
-        }
+        
     }
     }
     
