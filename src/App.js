@@ -17,43 +17,50 @@ const projects=[
   },
   {
     id:'2',
-    title: 'ZooKeepr',
-    description:"Express.js" ,
-    github:'https://github.com/Ayoubhm1993/Zookeepr',
-    link:""
-  },
-  {
-    id:'3',
     title: 'Collectors haven',
     description:"MERN Stack Application" ,
     github:'https://github.com/Ayoubhm1993/collectors-haven',
     link:"https://aqueous-taiga-86315.herokuapp.com/"
   },
   {
+    id:'3',
+    title: 'Book Search',
+    description:"Mern Stack Application" ,
+    github:'https://github.com/Ayoubhm1993/book-search-engine',
+    link:"https://booksearchengine21.herokuapp.com/"
+  },
+  {
     id:'4',
+    title: 'Deep thoughts',
+    description:"Mern Stack Application" ,
+    github:'https://github.com/Ayoubhm1993/deep-thoughts',
+    link:""
+  },
+  {
+    id:'5',
     title: 'Diet Delivery',
-    description:"Html & Css" ,
+    description:"Js , Node.js , Express.js , MySql , Handlebars.js" ,
     github:'https://github.com/Ayoubhm1993/diet-delivery',
     link:"https://diet-delivery.herokuapp.com/"
   },
   {
-    id:'5',
+    id:'6',
     title: 'Work Day Scheduler',
-    description:"Work Day Scheduler! Application that offers Daily schedule during buisness hours, with option to save your event in local storage ." ,
+    description:"Html , Css , JavaScript , Bootstrap , jQuery" ,
     github:'https://github.com/Ayoubhm1993/Work-Day-Scheduler',
     link:"https://ayoubhm1993.github.io/Work-Day-Scheduler/"
   },
   {
-    id:'6',
+    id:'7',
     title: 'Password Generator',
-    description:"Password Generator! Application that's genearat password with 8 minimum and 128 maximum length , Include char/Uppercase and LowerCase ." ,
+    description:"Html , Css , JavaScript" ,
     github:'https://github.com/Ayoubhm1993/Password-Generator',
     link:"https://ayoubhm1993.github.io/Password-Generator/"
   },
   {
-    id:'7',
+    id:'8',
     title: 'Run-Buddy',
-    description:"Run Buddy! Application that's Offers fitness training Services" ,
+    description:"Html & Css" ,
     github:'https://github.com/Ayoubhm1993/Run-Buddy',
     link:"https://ayoubhm1993.github.io/Run-Buddy"
   }

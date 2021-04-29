@@ -1,5 +1,5 @@
 .home{
-    height: 60vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -19,21 +19,49 @@
   
 
     }
+    .text-full-fix{
+      position: relative;
+      text-align: center;
+      display: flex;
+      bottom: 70%;
+      
+      left: 3%;
+      overflow: visible;
+      z-index: 1;
+      font-size: 6rem;
+      color:black;
+
+    }
     .text-full{
         position: relative;
         text-align: center;
-
-        bottom: 80%;
+        margin-left: 15px ;
+        bottom: 70%;
         
         left: 3%;
         overflow: visible;
         z-index: 1;
-        font-size: 60px;
-        color: beige;
+        font-size:6rem;
+        color: rgb(0, 0, 0);
 
         
     }
-    
+    .text-full::after{
+      content: "";
+      position: absolute;
+      left: 0;
+      height:100%;
+      width: 100%;
+      background:rgb(237, 236, 236);
+      border-left: 2px solid white;
+      animation: typing 4.0s steps(16) infinite;
+    }
+    @keyframes typing {
+      100%{
+        left:100%;
+        margin: 0 -35px 0 35px;
+      }
+    }
     
     
 }

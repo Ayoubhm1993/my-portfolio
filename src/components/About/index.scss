@@ -1,10 +1,12 @@
 .about{
     background-color: rgb(59, 59, 60);
     height: 100%;
+    
     display:block;
     justify-content: center;
     flex-wrap: wrap;
-    background-color:cornflowerblue;
+    
+   
     h1{
         display: flexbox;
         justify-content: center;
@@ -20,32 +22,76 @@
     }
     .about-container{
         display: flex;
-        justify-content: flex-start;
+        justify-content:center;
         flex-wrap: wrap;
-        margin: 20px;
+        padding:10% 0 10% 0;
+        background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('../../assets/cover/about-cover.jpg');
+        background-size:cover;
+        
     
+    .about-card{
+        
+        height: 60vh;
+        width: 40vh;
+        border:white 1px solid;
         
     .image-me{
        position: relative;
         width: 30vh;
         height: 30vh;
         border-radius: 100%;  
-        top:10%;
+        top:5%;
+        left:12%;
         justify-content: center;
         
     
         
     }
+    .card-title{
+
+        color: rgb(158, 252, 255);
+        display: flex;
+        justify-content: center;
+        padding-top: 6%;
+    }
+    .contact-info{
+        color: white;
+        .contacts{
+            font-size: 19px;
+            position:relative;
+            bottom:15px;
+        }
+    }
+    .icons-contact{
+        height: 35px;
+        width: 35px;
+        margin: 2% 3%;
+    }
+    .links-section{
+        display: flex;
+        justify-content: space-around;
+        padding: 2%;
+    .icons{
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        
+        
+    }
+}
+}
     
     .text{
        position: relative;
        width: 70%;
+       color: white;
+       display: flex;
+       justify-content:flex-end;
+       flex-wrap: wrap;
        
-       justify-content: center;
-       
-       top: 7%;
        font-size: 1.5rem;
-       margin-left: 60px;
+       margin: 3%;
+       padding: auto;
     }
     .skills{
         height: 100%;
@@ -56,16 +102,21 @@
         
         h3{
         font-size: 35px;
-        display: flex;
+        color: white;
         justify-content: center;
         flex-wrap: wrap;
         }
         
-            img{
+            .skills-icons{
                 height: 100%;
                 width: 100%;
                 position: relative;
-                
+                display: flex;
+                justify-content: center;
+                img{
+                    height: 90%;
+                    width: 90%;
+                }
             }
         
     }

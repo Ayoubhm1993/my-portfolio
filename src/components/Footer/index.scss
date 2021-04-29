@@ -1,14 +1,15 @@
 .footer-container{
-    width: 100vh;
+    
+    background: black;
     display: flex;
-    justify-content:center;
-    margin:20px 0px;
+    justify-content:space-evenly;
+    
     align-items: center;
     .linkedin{
         width: 30px;
         height: 30px;
         position: relative;
-        right:40%;
+        right:0;
         img{
             width: 60px;
         height: 60px;
@@ -19,20 +20,16 @@
         width: 30px;
         height: 30px;
         position: relative;
-        right: 25%;
+        
         img{
             width: 60px;
         height: 60px;
         }
     }
-    .mail{
-        width: 30px;
-        height: 30px;
-        position: relative;
-        right: 10%;
-        img{
-            width: 60px;
-        height: 60px;
-        }
+    
+    
+    p{
+        color: white;
+        font-size: 2rem;
     }
 }
