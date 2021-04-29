@@ -2,12 +2,12 @@ import React, { useState } from "react";
 
 import './index.scss';
 import photo0 from '../../assets/projects/0.JPG';
-import photo1 from '../../assets/projects/1.jpg';
+import photo1 from '../../assets/projects/1.JPG';
 import photo6 from '../../assets/projects/6.jpg';
 import photo4 from '../../assets/projects/4.JPG';
-import photo5 from '../../assets/projects/5.JPG';
+import photo5 from '../../assets/projects/5.jpg';
 import photo3 from '../../assets/projects/3.JPG';
-import photo2 from '../../assets/projects/2.JPG';
+import photo2 from '../../assets/projects/2.jpg';
 import photo7 from '../../assets/projects/7.jpg';
 import Modal from '../Modal';
 import githubIcon from '../../assets/icons/github.png';
