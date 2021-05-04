@@ -5,7 +5,7 @@ import photo0 from '../../assets/projects/0.JPG';
 import photo1 from '../../assets/projects/1.jpg';
 import photo6 from '../../assets/projects/6.jpg';
 import photo4 from '../../assets/projects/4.JPG';
-import photo5 from '../../assets/projects/5.JPG';
+import photo5 from '../../assets/projects/5.jpg';
 import photo3 from '../../assets/projects/3.JPG';
 import photo2 from '../../assets/projects/2.JPG';
 import photo7 from '../../assets/projects/7.jpg';
@@ -18,33 +18,34 @@ const {projects}=props;
 
 
 const photos=[photo0,photo1,photo2,photo3,photo4,photo5,photo6,photo7];
-const [project]=useState([  {
-  id: '1',
-  title:'Oh Snap',
-  description:"React",
-  github:'https://github.com/Ayoubhm1993/photo-port',
-  link: "https://ayoubhm1993.github.io/photo-port/"
-  },
+const [project]=useState([ 
   {
-    id:'2',
+    id:'1',
     title: 'Collectors haven',
     description:"MERN Stack Application" ,
     github:'https://github.com/Ayoubhm1993/collectors-haven',
     link:"https://aqueous-taiga-86315.herokuapp.com/"
   },
   {
-    id:'3',
+    id:'2',
     title: 'Book Search',
     description:"Mern Stack Application" ,
     github:'https://github.com/Ayoubhm1993/book-search-engine',
     link:"https://booksearchengine21.herokuapp.com/"
   },
   {
-    id:'4',
+    id:'3',
     title: 'Deep thoughts',
     description:"Mern Stack Application" ,
-    github:'https://github.com/Ayoubhm1993/Zookeepr',
-    link:""
+    github:'https://github.com/Ayoubhm1993/deep-thoughts',
+    link:"https://lit-beach-94010.herokuapp.com/"
+  },
+  {
+  id: '4',
+  title:'Oh Snap',
+  description:"React",
+  github:'https://github.com/Ayoubhm1993/photo-port',
+  link: "https://ayoubhm1993.github.io/photo-port/"
   },
   {
     id:'5',
@@ -63,14 +64,14 @@ const [project]=useState([  {
   {
     id:'7',
     title: 'Password Generator',
-    description:"Password Generator! Application that's genearat password with 8 minimum and 128 maximum length , Include char/Uppercase and LowerCase ." ,
+    description:"Html , Css , JavaScript" ,
     github:'https://github.com/Ayoubhm1993/Password-Generator',
     link:"https://ayoubhm1993.github.io/Password-Generator/"
   },
   {
     id:'8',
     title: 'Run-Buddy',
-    description:"Run Buddy! Application that's Offers fitness training Services" ,
+    description:"Html & Css" ,
     github:'https://github.com/Ayoubhm1993/Run-Buddy',
     link:"https://ayoubhm1993.github.io/Run-Buddy"
   }]);

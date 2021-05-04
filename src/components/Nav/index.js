@@ -1,5 +1,5 @@
 import React from 'react';
-import myResume from '../../assets/me/resume.pdf'
+import myResume from '../../assets/me/Resume.docx'
 import('./index.scss');
 const Nav = (props) => {
     
